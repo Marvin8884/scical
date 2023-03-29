@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scientific Calculator</title>
+	<script src="calculator.js"></script>
+</head>
+<body>
+	<h1>Scientific Calculator</h1>
+	<form>
+		<input type="text" id="input">
+		<br>
+		<input type="button" value="sin" onclick="scientificCalculator('sin')">
+		<input type="button" value="cos" onclick="scientificCalculator('cos')">
+		<input type="button" value="tan" onclick="scientificCalculator('tan')">
+		<input type="button" value="log" onclick="scientificCalculator('log')">
+		<input type="button" value="ln" onclick="scientificCalculator('ln')">
+		<br>
+		<input type="button" value="sqrt" onclick="scientificCalculator('sqrt')">
+		<input type="button" value="pow" onclick="scientificCalculator('pow')">
+		<input type="button" value="fact" onclick="scientificCalculator('fact')">
+		<input type="button" value="Clear" onclick="document.getElementById('input').value=''">
+		<br>
+		<input type="button" value="7" onclick="document.getElementById('input').value+='7'">
+		<input type="button" value="8" onclick="document.getElementById('input').value+='8'">
+		<input type="button" value="9" onclick="document.getElementById('input').value+='9'">
+		<input type="button" value="/" onclick="document.getElementById('input').value+='/'">
+		<br>
+		<input type="button" value="4" onclick="document.getElementById('input').value+='4'">
+		<input type="button" value="5" onclick="document.getElementById('input').value+='5'">
+		<input type="button" value="6" onclick="document.getElementById('input').value+='6'">
+		<input type="button" value="*" onclick="document.getElementById('input').value+='*'">
+		<br>
+		<input type="button" value="1" onclick="document.getElementById('input').value+='1'">
+		<input type="button" value="2" onclick="document.getElementById('input').value+='2'">
+		<input type="button" value="3" onclick="document.getElementById('input').value+='3'">
+		<input type="button" value="-" onclick="document.getElementById('input').value+='-'">
+		<br>
+		<input type="button" value="0" onclick="document.getElementById('input').value+='0'">
+		<input type="button" value="." onclick="document.getElementById('input').value+='.'">
+		<input type="button" value="=" onclick="document.getElementById('input').value=eval(document.getElementById('input').value)">
+		<input type="button" value="+" onclick="document.getElementById('input').value+='+'">
+		<br>
+	</form>
+</body>
+</html>
