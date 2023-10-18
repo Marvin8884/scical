@@ -21,7 +21,11 @@ function calculate() {
     input = result.toString();
 }
 
-
+function calculators() {
+    var result = eval(input);
+    document.getElementById('answer').value = result;
+    input = result.toString();
+}
 
 function scientificCalculator(value) {
     var input = document.getElementById("input").value;
