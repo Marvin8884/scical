@@ -10,6 +10,11 @@ function clearInput() {
     document.getElementById('answer').value = '0';
 }
 
+function clearInput2() {
+    input2 = '';
+    document.getElementById2('answer').value = '0';
+}
+
 function calculate() {
     var result = eval(input);
     document.getElementById('answer').value = result;
