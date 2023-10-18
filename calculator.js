@@ -10,9 +10,9 @@ function clearInput() {
     document.getElementById('answer').value = '0';
 }
 
-function clearInput1() {
-    input1 = '';
-    document.getElementById1('answer').value = '0';
+function clearInput() {
+    input = '';
+    document.getElementById('answer').value = '0';
 }
 
 function calculate() {
