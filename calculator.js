@@ -10,15 +10,9 @@ function clearInput() {
     document.getElementById('answer').value = '0';
 }
 
-<<<<<<< HEAD
 function clearInput() {
     input = '';
     document.getElementById('answer').value = '0';
-=======
-function clearInput2() {
-    input2 = '';
-    document.getElementById2('answer').value = '0';
->>>>>>> his-branch
 }
 
 function calculate() {
