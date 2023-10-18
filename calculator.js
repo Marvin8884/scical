@@ -10,7 +10,7 @@ function clearInput() {
     document.getElementById('answer').value = '0';
 }
 
-function clearInput1() {
+function clearInput()1 {
     input1 = '';
     document.getElementById1('answer').value = '0';
 }
